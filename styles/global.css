@@ -27,6 +27,30 @@ main * {
     margin: 10px;
 }
 
+#name-tag {
+    width: 600px;
+    height: 400px;
+    border-radius: 24px;
+    background-color: rgb(255, 162, 0);
+}
+
+#greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 136px;
+    font-size: 48px;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    background-color: white;
+    font-size: 96px;
+}
+
 input {
     padding: 5px;
 }
