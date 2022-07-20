@@ -1,8 +1,6 @@
-// import functions and grab DOM elements
+// make a variable for the name div, input, and button
+const nameDiv = document.getElementById('name');
+const nameInput = document.getElementById('name-input');
+const updateButton = document.getElementById('update-button');
 
-// let state
-
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+console.log(nameDiv, nameInput, updateButton);
