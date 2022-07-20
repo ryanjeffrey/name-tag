@@ -3,7 +3,7 @@ const nameDiv = document.getElementById('name');
 const nameInput = document.getElementById('name-input');
 const updateButton = document.getElementById('update-button');
 
-console.log(nameDiv, nameInput, updateButton);
+// console.log(nameDiv, nameInput, updateButton);
 
 // add an event listener to the button - "listen for the click"
 updateButton.addEventListener('click', () => {

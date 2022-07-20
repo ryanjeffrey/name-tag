@@ -24,21 +24,22 @@ main {
 }
 
 main * {
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 #name-tag {
-    width: 600px;
-    height: 400px;
+    width: 480px;
+    height: 320px;
     border-radius: 24px;
     background-color: rgb(255, 162, 0);
+    margin: 10px;
 }
 
 #greeting {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 136px;
+    height: 96px;
     font-size: 48px;
 }
 
@@ -51,8 +52,22 @@ main * {
     font-size: 96px;
 }
 
-input {
+#name-input {
     padding: 5px;
+    margin: 10px;
+}
+
+#color-selectors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 8px;
+    margin: 20px;
+}
+
+#color-selectors h2 {
+    font-size: 12px;
 }
 
 footer {
