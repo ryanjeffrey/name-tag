@@ -2,12 +2,22 @@
     --background: rgb(40, 40, 40);
     --header-background: white;
     --footer-background: rgb(243, 242, 242);
+    --gradient: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 body {
     height: 100vh;
-    font-family: 'Rubik', san-serif;
+    font-family: 'Ibarra Real Nova', serif;
     background: var(--background);
+}
+
+button {
+    border-radius: 24px;
+    background: var(--gradient);
+    transition: background 0.6s ease-in;
+    padding: 8px;
+    border: none;
+    font-size: 8px;
 }
 
 header {
@@ -31,8 +41,9 @@ main * {
     width: 480px;
     height: 320px;
     border-radius: 24px;
-    background-color: rgb(255, 162, 0);
+    background: var(--gradient);
     margin: 10px;
+    transition: background 0.6s ease-in;
 }
 
 #greeting {
@@ -40,7 +51,7 @@ main * {
     justify-content: center;
     align-items: center;
     height: 96px;
-    font-size: 48px;
+    font-size: 40px;
 }
 
 #name {
@@ -49,12 +60,13 @@ main * {
     align-items: center;
     height: 160px;
     background-color: white;
-    font-size: 96px;
+    font-size: 72px;
 }
 
 #name-input {
     padding: 5px;
     margin: 10px;
+    font-size: 8px;
 }
 
 #color-selectors {
@@ -62,12 +74,18 @@ main * {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    font-size: 8px;
-    margin: 20px;
+    font-size: 10px;
+    margin: 40px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 #color-selectors h2 {
     font-size: 12px;
+}
+
+#color-selectors * {
+    padding-right: 16px;
 }
 
 footer {
